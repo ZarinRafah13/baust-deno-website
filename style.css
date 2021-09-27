@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 6px 16px 0px rgba(143,188,143,1);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #738276;}
+  
+  /*dropdown menu*/
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .marquee{
+      background-color: white;
+  }
+  .baust{
+      color: white;
+      font-family: "Georgia";
+  }
+  .green{
+      color: #E3F104;
+      font-family: ' Monotype Corsiva';
+  }
+  .yellow{
+    color: #E3F104;
+    font-family: 'Merriweather-Regular';
+  }
+  .number{
+    width: 120px;
+    border: 15px solid #70de2d;
+    padding: 15px;
+    background-color: #70de2d;
+    border-radius: 10px;
+    color: red;
+  }
+  .dark-green{
+    background-color: #0A3316;
+  }
+  .white{
+    color: white;
+  }
+  .slider{
+    background-color: gray;
+    color: white;
+    font-family: "Georgia";
+  }
+  .mujib{
+    background-color: #0A3316;
+    margin: 29%;
+    padding: 2%;
+    border-radius: 10px;
+  }
+  .mujib-logo{
+    border-radius: 10px;
+  }
+  .carousel{
+    margin-top: 10%;
+  }
+  .vc-img{
+    margin-left:30%;
+  }
+  .vc-text{
+    background-color: #ADD8E6;
+    text: black;
+    font-family: "Georgia";
+  }
+  .vc-text2{
+ text: black;
+    font-family: "Garamond"; 
+     }
+  .text2{
+     color:#556b2f ;
+    font-family: "Impact"; 
+  }
+.drop-down{
+  margin-left: 30%;
+}
+a{
+  text-decoration:none;
+}
+.left-button {
+  font-size: 15px;
+  text-align: center;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  position: fixed;
+  color: white;
+  background-color:#0f007d;
+  box-shadow: 0 0 0 #fbfba3, 0 5px 15px #009340;
+  transform: rotate(-90deg); 
+  top: 40%;
+}
+
+.right-button {
+  font-size: 15px;
+  text-align: center;
+  width: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  position: fixed;
+  color: white;
+  background-color:#0f007d;
+  box-shadow: 0 0 0 #fbfba3, 0 5px 15px #009340;
+
+  right: 10px; 
+  top: 40%;
+}
